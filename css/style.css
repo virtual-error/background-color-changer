@@ -1,0 +1,29 @@
+div{
+
+  
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+div > *{
+  margin:0;
+  padding: 0;
+  
+  display: inline-block;
+}
+div > :nth-child(0n+1)
+{
+ flex-grow: 1;
+ flex-basis: 100%;
+ 
+ text-align: center;
+}
+
+input{
+  border:1px solid black;
+ 
+  height:100px;
+  width: 100px;
+}
